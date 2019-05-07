@@ -129,7 +129,7 @@ namespace ProjectManager.Test
             var result = controller.UpdateUserDetails(user) as JSendResponse;
 
             Assert.IsNotNull(result);
-            Assert.AreEqual((context.Users.Local[0]).First_Name.ToUpper(), "KHUSH");
+            Assert.AreEqual((context.Users.Local[0]).First_Name.ToUpper(), "SHER");
         }
 
         [TestMethod]
